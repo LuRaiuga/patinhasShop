@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 2 | pawShop</title>
-    <link rel="stylesheet" href="../Aula2 - pawShop/styles/style.css">
-    <link rel="shortcut icon" href="../Aula2 - pawShop/images/logo/logoDark.svg" type="image/x-icon">
+    <title>Bem-vindo ao Paw Shop</title>
+    <link rel="stylesheet" href="../pawShop/styles/style.css">
+    <link rel="shortcut icon" href="../pawShop/images/logo/logoDark.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -17,8 +17,8 @@
         <header>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../Aula2 - pawShop/index.html"><img id="imgLogo"
-                            src="images/logo/logoDark.svg" style="height: 4rem;"></a>
+                    <a class="navbar-brand" href="../pawShop/index.html"><img id="imgLogo"
+                            src="../pawShop/images/logo/logoDark.svg" style="height: 4rem;"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -52,43 +52,33 @@
             </nav>
         </header>
 
-        <!-- Primeira maneira de imagem responsiva 
-        <picture>
-            <source srcset="" media="screen and media (min-width: 768px)">
-            <source srcset="" media="screen and media (min-width: 769px) and (max-widt: 1200px)">
-            <img src="..." alt="">
-        </picture>
-        -->
-
-
-
         <main>
             <section id="carouselSec" class="container-fluid mx-0 my-1 p-0">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../Aula2 - pawShop/images/bannerMobile/bannerMobile.png"
+                            <img src="../pawShop/images/bannerMobile/bannerMobile.png"
                                 class="img-fluid d-block d-md-none d-xl-none w-100" alt="Border na praia">
-                            <img src="../Aula2 - pawShop/images/bannerTablet/bannerTablet.png"
+                            <img src="../pawShop/images/bannerTablet/bannerTablet.png"
                                 class="img-fluid d-none d-md-block d-xl-none w-100" alt="Border na praia">
-                            <img src="../Aula2 - pawShop/images/banner/banner.png"
+                            <img src="../pawShop/images/banner/banner.png"
                                 class="img-fluid d-none d-md-none d-xl-block w-100" alt="Border na praia">
                         </div>
                         <div class="carousel-item">
-                            <img src="../Aula2 - pawShop/images/bannerMobile/bannerMobile2.png"
-                                class="img-fluid d-block d-md-none d-xl-none w-100" alt="Labrador marrom">
-                            <img src="../Aula2 - pawShop/images/bannerTablet/bannerTablet2.png"
-                                class="img-fluid d-none d-md-block d-xl-none w-100" alt="Labrador marrom">
-                            <img src="../Aula2 - pawShop/images/banner/banner2.png"
-                                class="img-fluid d-none d-md-none d-xl-block w-100" alt="Labrador marrom">
+                            <img src="../pawShop/images/bannerMobile/bannerMobile2.png"
+                                class="img-fluid d-block d-md-none d-xl-none w-100" alt="Labrador Marrom">
+                            <img src="../pawShop/images/bannerTablet/bannerTablet2.png"
+                                class="img-fluid d-none d-md-block d-xl-none w-100" alt="Labrador Marrom">
+                            <img src="../pawShop/images/banner/banner2.png"
+                                class="img-fluid d-none d-md-none d-xl-block w-100" alt="Labrador Marrom">
                         </div>
                         <div class="carousel-item">
-                            <img src="../Aula2 - pawShop/images/bannerMobile/bannerMobile3.png"
-                                class="img-fluid d-block d-md-none d-xl-none w-100" alt="Border na mata">
-                            <img src="../Aula2 - pawShop/images/bannerTablet/bannerTablet3.png"
-                                class="img-fluid d-none d-md-block d-xl-none w-100" alt="Border na mata">
-                            <img src="../Aula2 - pawShop/images/banner/banner3.png"
-                                class="img-fluid d-none d-md-none d-xl-block w-100" alt="Border na mata">
+                            <img src="../pawShop/images/bannerMobile/bannerMobile3.png"
+                                class="img-fluid d-block d-md-none d-xl-none w-100" alt="Border na floresta">
+                            <img src="../pawShop/images/bannerTablet/bannerTablet3.png"
+                                class="img-fluid d-none d-md-block d-xl-none w-100" alt="Border na floresta">
+                            <img src="../pawShop/images/banner/banner3.png"
+                                class="img-fluid d-none d-md-none d-xl-block w-100" alt="Border na floresta">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -108,19 +98,17 @@
                 <h3 class="my-3">SEU PET PRECISA DE COMIDA? OU DE UNS PETISCOS? VOCÊ ESTÁ NO LUGAR CERTO!</h3>
 
                 <div class="container mx-auto my-3 row">
-                    <!-- GRID -- 12 COLUNAS e é definido pelo row -->
-                    <!-- <element class="col-(numero)"> col é atributo responsável pelas colunas e pela quantidade ocupada -->
                     <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="../Aula2 - pawShop/images/dogsSection/img1.png" alt="">
+                        <img class="w-100" src="../pawShop/images/dogsSection/img1.png" alt="">
                     </div>
                     <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="../Aula2 - pawShop/images/dogsSection/img2.png" alt="">
+                        <img class="w-100" src="../pawShop/images/dogsSection/img2.png" alt="">
                     </div>
                     <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="../Aula2 - pawShop/images/dogsSection/img3.png" alt="">
+                        <img class="w-100" src="../pawShop/images/dogsSection/img3.png" alt="">
                     </div>
                     <div class="col-3 m-0 p-0">
-                        <img class="w-100" src="../Aula2 - pawShop/images/dogsSection/img4.png" alt="">
+                        <img class="w-100" src="../pawShop/images/dogsSection/img4.png" alt="">
                     </div>
                 </div>
 
@@ -145,7 +133,7 @@
                 <div id="cardProd" class="d-flex justify-content-center gap-3 flex-wrap container-fluid my-0 p-0">
                     <!-- Coleira -->
                     <div class="card" style="width: 22rem;">
-                        <img class="m-3" src="../Aula2 - pawShop/images/products/productImage.png" class="card-img-top"
+                        <img class="m-3" src="../pawShop/images/products/productImage.png" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h4 class="card-title" style="color: var(--laranja);">Coleira</h4>
@@ -164,7 +152,7 @@
                     </div>
                     <!-- Comida -->
                     <div class="card" style="width: 22rem;">
-                        <img class="m-3" src="../Aula2 - pawShop/images/products/productImage2.png" class="card-img-top"
+                        <img class="m-3" src="../pawShop/images/products/productImage2.png" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h4 class="card-title" style="color: var(--laranja);">Comida</h4>
@@ -183,7 +171,7 @@
                     </div>
                     <!-- Disco de brinquedo -->
                     <div class="card" style="width: 22rem;">
-                        <img class="m-3" src="../Aula2 - pawShop/images/products/productImage3.png" class="card-img-top"
+                        <img class="m-3" src="../pawShop/images/products/productImage3.png" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h4 class="card-title" style="color: var(--laranja);">Disco de brinquedo</h4>
@@ -202,7 +190,7 @@
                     </div>
                     <!-- Casinha -->
                     <div class="card" style="width: 22rem;">
-                        <img class="m-3" src="../Aula2 - pawShop/images/products/productImage4.png" class="card-img-top"
+                        <img class="m-3" src="../pawShop/images/products/productImage4.png" class="card-img-top"
                             alt="...">
                         <div class="card-body">
                             <h4 class="card-title" style="color: var(--laranja);">Casinha</h4>
@@ -251,7 +239,7 @@
                         </div>
                     </aside>
                     <aside id="formBanner" class="w-50">
-                        <img src="../Aula2 - pawShop/images/imgBanner.png" class="w-100" alt="Homem Abraçando cachorro">
+                        <img src="../pawShop/images/imgBanner.png" class="w-100" alt="Homem Abraçando cachorro">
                     </aside>
                 </div>
             </section>
@@ -273,7 +261,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img class="w-100" src="../Aula2 - pawShop/images/products/productImage.png" alt="">
+                    <img class="w-100" src="../images/products/productImage.png" alt="">
                     <h3 style="color: var(--verde);" class="my-1">R$100</h3>
                     <label for="quantidade">Quantidade:</label>
                     <input type="number" number="" id="quantidade"></input>
@@ -294,7 +282,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img class="w-100" src="../Aula2 - pawShop/images/products/productImage2.png" alt="">
+                    <img class="w-100" src="../images/products/productImage2.png" alt="">
                     <h3 style="color: var(--verde);" class="my-1">R$100</h3>
                     <label for="quantidade">Quantidade:</label>
                     <input type="number" number="" id="quantidade"></input>
@@ -316,7 +304,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img class="w-100" src="../Aula2 - pawShop/images/products/productImage3.png" alt="">
+                    <img class="w-100" src="../images/products/productImage3.png" alt="">
                     <h3 style="color: var(--verde);" class="my-1">R$100</h3>
                     <label for="quantidade">Quantidade:</label>
                     <input type="number" number="" id="quantidade"></input>
@@ -337,7 +325,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img class="w-100" src="../Aula2 - pawShop/images/products/productImage4.png" alt="">
+                    <img class="w-100" src="..images/products/productImage4.png" alt="">
                     <h3 style="color: var(--verde);" class="my-1">R$100</h3>
                     <label for="quantidade">Quantidade:</label>
                     <input type="number" number="" id="quantidade"></input>
