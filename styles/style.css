@@ -1,0 +1,48 @@
+:root{
+    --azul: #6EB3D0;
+    --azultexto: #2f9dcc;
+    --verde: #7aa369;
+    --rosa: #F7B6D2;
+    --laranja: #F4A623;
+    --preto: #000000;
+    --branco: #FFFFFF; 
+}
+
+header, footer{
+    background-color: var(--azul);
+}
+
+.card, .card img{
+    border-radius: 1%;
+}
+
+.card{
+    border: var(--preto) 1px solid;
+}
+
+.card button{
+    background-color: var(--rosa);
+    border: none;
+    color: var(--preto);
+    border-radius: 0%;
+}
+
+.card button:hover{
+    background-color: rgb(231, 90, 116);
+}
+
+.card button:active{
+    background-color: rgb(236, 68, 99);
+}
+
+.texto, .card-text{
+    text-align: justify;
+}
+
+.card-text{
+    margin: 3%;
+}
+
+input{
+    border: 1px solid black!important;
+}
